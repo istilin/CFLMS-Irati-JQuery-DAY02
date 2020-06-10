@@ -20,7 +20,7 @@ body{
 	margin: 8% 0;
 }
 
-.card, .drop{
+.card{
 	width: 8.7vw;
 	height: 10.4vw;
 	border: solid black;
@@ -30,4 +30,12 @@ body{
 
 img{
 	width: 100%;
+}
+
+.finished{
+	box-shadow: 1vw 1vw 1vw 0.4vw rgba(0,300,0,0.75);
+
+}
+.wrong{
+	box-shadow: 1vw 1vw 1vw 0.4vw rgba(105,105,105,0.75);
 }
