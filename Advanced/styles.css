@@ -1,0 +1,33 @@
+body{
+	background-image: url("img/back.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#board{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+	margin: 8% 0;
+}
+
+.card, .drop{
+	width: 8.7vw;
+	height: 10.4vw;
+	border: solid black;
+	margin:  0 1%;
+	border-radius: 1vw;
+}
+
+img{
+	width: 100%;
+}
