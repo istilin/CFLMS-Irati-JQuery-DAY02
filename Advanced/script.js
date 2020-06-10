@@ -33,8 +33,6 @@ $(document).ready(function () {
 
 	$("img").draggable({
 			revert: "invalid"
-
-			
 			})
 
 	for (let i = 1; i <= shuffled_cards.length; i++){
@@ -45,11 +43,7 @@ $(document).ready(function () {
 			accept: `#img_${i}`,
 
 			drop: function (_event, ui) {
-				$(this).addClass('finished'),
-
-
-
-
+				$(this).addClass('finished')
 		}})
 	}
 
